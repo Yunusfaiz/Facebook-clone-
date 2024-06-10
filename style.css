@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+#main{
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+}
+#main a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar{
+    background-color: aqua;
+    height: 100vh;
+    padding: 15px 15px;
+}
+.content{
+    background-color: black;
+    height: 100vh;
+}
+.extra{
+    background-color: brown;
+    height: 100vh;
+}
